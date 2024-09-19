@@ -1,0 +1,7 @@
+Yêu cầu:
+
+- Lưu Bai1_Buoi1.cpp thành Bai2_Buoi1.cpp.
+
+- Sửa chương trình sao cho khi chạy sẽ in ra màn hình thông tin giới thiệu về bạn, bao gồm: Mã lớp, Tên lớp, Mã số sinh viên, Họ tên, Ngày tháng năm sinh, Địa chỉ, Số điện thoại.
+
+- Nộp chương trình chạy được lên hệ thống.
