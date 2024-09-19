@@ -1,0 +1,3 @@
+- Nhập vào một số nguyên dương n và một số thực x. Tính (x2 +1)n
+- In kết quả tính được ra màn hình.
+- Lưu chương trình với tên Bai5_Buoi1.cpp và nộp lên hệ thống.
