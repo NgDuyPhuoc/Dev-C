@@ -1,0 +1,4 @@
+Yêu cầu:
+- Tải chương trình (tập tin Bai3_Buoi1.cpp) về máy.
+- Chạy thử chương trình. Nếu chương trình bị lỗi thì sửa lỗi sao cho chương trình khi chạy sẽ cho phép người dùng nhập vào chiều dài, chiều rộng và tính diện tích, chu vi của hình chữ nhật.
+- Nộp chương trình chạy được lên hệ thống.
