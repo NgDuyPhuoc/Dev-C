@@ -1,0 +1,5 @@
+-  Tải chương trình (tập tin Bai1_Buoi1.cpp) về máy. Chạy chương trình và cho biết kết quả của chương trình là gì?
+
+- Sửa lại chương trình sao cho khi chạy sẽ xuất kết quả: Xin chao cac ban lop DH CNTT 2021
+
+- Nộp lại chương trình đã sửa lên hệ thống
