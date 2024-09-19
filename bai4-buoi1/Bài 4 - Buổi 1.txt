@@ -1,0 +1,4 @@
+Yêu cầu:
+- Lưu Bai3_Buoi1.cpp thành Bai4_Buoi1.cpp
+- Sửa chương trình sao cho khi chạy sẽ cho phép nhập vào 2 số nguyên. Tính tổng, hiệu, tích, thương của 2 số vừa nhập và xuất kết quả tính được ra màn hình.
+- Nộp chương trình chạy được lên hệ thống.

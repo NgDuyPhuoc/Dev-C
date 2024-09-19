@@ -4,18 +4,20 @@
 int main()
 {
 	int a, b;
-	int cv, dt;
 
-	printf("Nhap chieu dai HCN:");
+	printf("Nhap vao so nguyen a:");
 	scanf("%d", &a);
-	printf("Nhap chieu rong HCN:");
+	printf("Nhap vao so nguyen b:");
 	scanf("%d", &b);
 	
-	cv=(a+b)*2;
-	dt=a*b;
+	int tong=a+b;
+	int hieu=a-b;
+	int tich=a*b;
+	int thuong=a/b;
 	
-	printf("Chu vi HCN=%d \n", cv);
-	printf("Dien tich HCN=%d \n", dt);	
-	
+	printf("Tong cua 2 so nguyen la: %d\n", tong);
+	printf("Hieu cua 2 so nguyen la: %d\n", hieu);
+	printf("Tich cua 2 so nguyen la: %d\n", tich);
+	printf("Thuong cua 2 so nguyen la: %d\n", thuong);	
 	return 0;
 }
