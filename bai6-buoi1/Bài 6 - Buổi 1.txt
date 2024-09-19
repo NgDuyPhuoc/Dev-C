@@ -1,0 +1,15 @@
+Viết chương trình:
+- Nhập vào một số nguyên dương có 3 chữ số.
+
+- Tính tổng, tích các chữ số của số vừa nhập và xuất kết quả tính được ra màn hình.
+
+- Lưu chương trình với tên Bai6_Buoi1.cpp và nộp lên hệ thống.
+
+
+Ví dụ:
+
++ Nhập số n=254.
+
++ Tổng=2+5+4=11
+
++ Tích=2*5*4=40.
