@@ -1,0 +1,25 @@
+Viết chương trình:
+
+- Nhập vào hai số nguyên a, b.
+
+- Hãy so sánh hai số a, b và in kết quả ra màn hình.
+- Lưu chương trình với tên Bai7_Buoi1.cpp và nộp lên hệ thống.
+
+
+Ví dụ:
+
++ Nhập a=7, b=5.
+
++ Kết quả: a > b
+
+Ví dụ:
+
++ Nhập a=9, b=9.
+
++ Kết quả: a = b
+
+Ví dụ:
+
++ Nhập a=10, b=15.
+
++ Kết quả: a < b
