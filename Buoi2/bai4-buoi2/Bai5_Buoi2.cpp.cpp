@@ -3,19 +3,27 @@
 int main()
 {
     int n, i, s = 1;
-
+	float x, luy_thua = 1;
+	
     do
     {
         printf("Nhap 1 so nguyen duong n = ");
         scanf("%d", &n);
+        
+        if (n <= 0){
+        	printf("Nhap n phai la so nguyen duong\n");
+		}
     } while(n <= 0);
+    
+    printf("Nhap 1 so thuc x = ");
+    scanf("%f", &x);
 
-    for(i = 1; i <= n; i++)
+    for(i = 0; i < n; i++)
     {
-        s = s * i;
+        luy_thua = luy_thua * x;
     }
 
-    printf("\nGiai thua cua %d la: %d\n", n, s);    
+    printf("\nLuy thua la %.2f", luy_thua);    
 
     return 0;
 }
