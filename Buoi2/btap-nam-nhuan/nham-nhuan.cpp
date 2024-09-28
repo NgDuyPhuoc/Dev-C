@@ -20,9 +20,9 @@ int main() {
 	printf("\nNam sinh cua ban la: %d", nam_sinh);
 	printf("\nChieu dai ten cua ban la: %d ki tu", length);
 
-	if(nam_sinh % 4 == 0 && nam_sinh % 100 != 0){
+	if(nam_sinh % 4 == 0 && nam_sinh % 100 != 0 || nam_sinh != 400){
 		printf("\n%s Sinh vao nam Nhuan", ten);
 	} else {
-		printf("\n%s Khong sinh vao nam Nhuan", &ten);
+		printf("\n%s Khong sinh vao nam Nhuan", ten);
 	}
 }
