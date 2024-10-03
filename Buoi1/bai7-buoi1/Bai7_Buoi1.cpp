@@ -12,10 +12,10 @@ int main()
 	if(a==b){
 		printf("Ket qua: a = b\n");
 	}
-	if(a>b){
+	else if(a>b){
 		printf("Ket qua: a > b\n");
 	}
-	if(a<b){
+	else{
 		printf("Ket qua: a < b\n");
 	}
 }

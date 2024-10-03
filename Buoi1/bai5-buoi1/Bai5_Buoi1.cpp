@@ -1,8 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+#include<math.h>
 
 int main(){
-	int n, x;
+	int n;
+	double x, ket_qua;
 	
 	printf("Nhap mot so nguyen duong x:");
 	scanf("%d", &x);
@@ -10,7 +11,7 @@ int main(){
 	printf("Nhap mot so nguyen duong n:");
 	scanf("%d", &n);
 	
-	int ket_qua = (x*2+1)*n;
+	ket_qua = pow((x * x + 1), n);
 	
 	printf("Ket qua cua phep tinh (x2+1)n la: %d", ket_qua);
 }

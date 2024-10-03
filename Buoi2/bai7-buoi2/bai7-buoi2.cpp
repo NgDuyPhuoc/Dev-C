@@ -22,8 +22,8 @@ int main()
 	for(i=2; i <= n; i = i+2){
 
 		tong = tong + i;
-		printf("Tong cac so chan tu 1 den %d = %d", n, tong);
 }
+	printf("Tong cac so chan tu 1 den %d = %d", n, tong);
 	return 0;
 }
 

@@ -1,24 +1,25 @@
 #include<stdio.h>
 #include<conio.h>
 
-int main()
-{
+int main(){
+
+
 	int n, i;
 	
-	do
-	{
+	do{
+	
 		printf("Nhap 1 so nguyen duong n=");
 		scanf("%d", &n);
 	} while(n<=0);
 	
-	printf("\nCac so chan tu 2 den %d la:", n);
-	for(i=0; i<=n; i++)
-	{
-		if(i%2==0){
-			printf("%3d", i);	
+//	printf("\nCac so chan tu 0 den %d la:", n);
+	
+	if(n % 2 != 0){
+		printf("%d Khong phai la so chan", n);
+	} else{
+		for(i=2; i<=n; i = i + 2){
+			printf("Cac so chan tu 0 den %d la: %d\n", n, i);
 		}
 	}
-	 
-		
-	return 0;
+	 return 0;                           
 }

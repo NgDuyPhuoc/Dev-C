@@ -1,0 +1,15 @@
+Viết chương trình:
+
+- Nhập vào điểm toán, điểm lý, điểm hóa của một học sinh.
+
+- In ra màn hình điểm trung bình và xếp loại của học sinh, biết rằng:
+Điểm trung bình (đtb)= (toán+lý+hóa)/3;
+Xếp loại học sinh:﻿
+
+Xuất sắc: đtb>=9
+Giỏi: 8<=đtb<9
+Khá: 6.5<=đtb<8
+Trung bình: 5<=đtb<6.5
+Yếu: 3.5<=đtb<5
+Kém: Còn lại (đtb<3.5)
+- Lưu chương trình với tên Bai8_Buoi1.cpp và nộp lên hệ thống.
