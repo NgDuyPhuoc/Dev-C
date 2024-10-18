@@ -1,5 +1,13 @@
 #include<stdio.h>
 
+long long Fibonacci(int n){
+	if(n <= 1)
+		return 1;
+	else {
+		return(Fibonacci (n - 1) + Fibonacci ( n - 2));
+	}
+}
+
 int main(){
 	int n, i, fi;
 	
@@ -12,9 +20,5 @@ int main(){
 		}
 	}while(n<0);
 	
-	for(i = 0; i <= n; i++){
-		fi = i + i;
-		printf("test Fi: %d\n", fi);
-	}
-	
+	printf("Fibonacci cua %d = %d", n, Fibonacci(n));
 }
